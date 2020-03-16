@@ -1,0 +1,17 @@
+<form class="" action="/bookings" method="post">
+  <label for="tourist-id">Pick up a tourist:</label>
+  <select class="" name="tourist_id" id="tourist-id">
+    <% @tourists.each do |tourist| %>
+      <option value="<%= tourist.id %>"><%= tourist.name %></option>
+    <% end %>
+  </select>
+  <label for="tour-id">Pick up a tour:</label>
+  <select class="" name="tour_id" id="tour-id">
+    <% @tours.each do |tour| %>
+      <option value="<%= tour.id %>"><%= tour.name %></option>
+    <% end %>
+  </select>
+  <label for="booking-date">Booking date:</label>
+  <input type="date" id="booking-date" name="booking_date">
+  <input type="submit" value="add booking">
+</form>

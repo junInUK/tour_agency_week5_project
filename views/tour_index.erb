@@ -1,0 +1,17 @@
+<a href="/tours/new">Add tour</a>
+<% @tours.each do |tour| %>
+  <div class="box-container" style="background:url('<%= tour.pic_url %>') no-repeat;">
+    <ul>
+      <li><%= tour.name %></li>
+      <li>Start from <%= tour.start_date %></li>
+      <li><%= tour.days %> days tour</li>
+      <li>From £<%= tour.price %></li>
+      <li>
+        <form action="/tours/<%= tour.id %>/delete" method="POST">
+          <input class="btn btn--danger" type="submit" value="delete" />
+        </form>
+      </li>
+      <li><a href="/tours/<%= tour.id %>/edit">edit</a></li>
+    </ul>
+  </div>
+<% end %>

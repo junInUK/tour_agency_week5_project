@@ -1,0 +1,18 @@
+<a href="/tourists/new">Add tourist</a>
+<% @tourists.each do |tourist| %>
+  <div class="box-container">
+    <ul>
+      <li><%= tourist.name %></li>
+      <li><%= tourist.email %></li>
+      <li><%= tourist.phone_number %></li>
+      <li><%= tourist.address %></li>
+      <li><%= tourist.funds %></li>
+      <li>
+        <form action="/tourists/<%= tourist.id %>/delete" method="POST">
+          <input class="btn btn--danger" type="submit" value="delete" />
+        </form>
+      </li>
+      <li><a href="/tourists/<%= tourist.id %>/edit">edit</a></li>
+    </ul>
+  </div>
+<% end %>

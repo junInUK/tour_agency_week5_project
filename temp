@@ -1,0 +1,12 @@
+
+
+<% @tours.each do |tour| %>
+  <div class="box-container">
+    <div class="box-left">
+      <img src="<%= tour.pic_url %>" alt="">
+    </div>
+    <div class="box-right">
+      <%= tour.name %>
+    </div>
+  </div>
+<% end %>
