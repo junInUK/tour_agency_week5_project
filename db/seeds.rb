@@ -1,5 +1,6 @@
 require_relative("../models/tour.rb")
 require_relative("../models/tourist.rb")
+require_relative("../models/booking.rb")
 require("pry-byebug")
 
 Tour.delete_all()
@@ -50,6 +51,15 @@ tour5 = Tour.new({
 })
 tour5.save()
 
+tour6 = Tour.new({
+  "name" => "Stiring St Andrew 1 day",
+  "start_date" => "2020-05-12",
+  "days" => 1,
+  "price" => 59,
+  "pic_url" => "/imgs/monumento-william-wallace.jpg"
+})
+tour6.save()
+
 tourist1 = Tourist.new({
   "name" => "jun wu",
   "email" => "junwu2012@hotmail.com",
@@ -76,3 +86,55 @@ tourist3 = Tourist.new({
   "funds" => 1500
 })
 tourist3.save()
+
+tourist4 = Tourist.new({
+  "name" => "Adam",
+  "email" => "adam@hotmail.com",
+  "phone_number" => "07902198176",
+  "address" => "498 Union Street Aberdeen",
+  "funds" => 1800
+})
+tourist4.save()
+
+tourist5 = Tourist.new({
+  "name" => "John",
+  "email" => "john@hotmail.com",
+  "phone_number" => "07654345672",
+  "funds" => 2200
+})
+tourist5.save()
+
+booking1 = Booking.new({
+  "tour_id" => tour1.id,
+  "tourist_id" => tourist1.id,
+  "booking_date" => "2020-05-08"
+})
+booking1.save()
+
+booking2 = Booking.new({
+  "tour_id" => tour1.id,
+  "tourist_id" => tourist2.id,
+  "booking_date" => "2020-05-07"
+})
+booking2.save()
+
+booking3 = Booking.new({
+  "tour_id" => tour1.id,
+  "tourist_id" => tourist3.id,
+  "booking_date" => "2020-05-06"
+})
+booking3.save()
+
+booking4 = Booking.new({
+  "tour_id" => tour1.id,
+  "tourist_id" => tourist4.id,
+  "booking_date" => "2020-05-06"
+})
+booking4.save()
+
+booking5 = Booking.new({
+  "tour_id" => tour1.id,
+  "tourist_id" => tourist5.id,
+  "booking_date" => "2020-05-06"
+})
+booking5.save()

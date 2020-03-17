@@ -1,0 +1,10 @@
+<a href="/bookings/new">Add booking</a>
+<% @bookings.each do |booking| %>
+  <p>
+    <%= booking.get_tourist().name %> booked
+    <%= booking.get_tour().name %> at <%= booking.booking_date %>
+    <form class="" action="/bookings/<%= booking.id %>/delete" method="post">
+      <input class="btn btn--danger" type="submit" value="delete"/>
+    </form>
+  </p>
+<% end %>

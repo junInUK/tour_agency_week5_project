@@ -1,0 +1,11 @@
+<table>
+  <% @tourists.each do |tourist| %>
+    <tr>
+      <td><%= tourist.name %></td>
+      <td><%= tourist.email %></td>
+      <td><%= tourist.phone_number %></td>
+      <td><%= tourist.address %></td>
+      <td><%= tourist.funds %></td>
+    </tr>
+  <% end %>
+</table>

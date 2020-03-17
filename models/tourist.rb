@@ -34,4 +34,15 @@ class Tourist
     tourists = results.map{|tourist| Tourist.new(tourist)}
     return tourists
   end
+
+  def self.get_by_tour(id)
+    sql = "SELECT tourists.* FROM tourists
+          inner join bookings on tourists.id = bookings.tourist_id
+          where bookings.tour_id = $1"
+    value = [id]
+    results = SqlRunner.run(sql,value)
+    tourists = results.map{|tourist| Tourist.new(tourist)}
+    return tourists
+  end
+
 end

@@ -1,0 +1,10 @@
+<table>
+  <% @tours.each do |tour| %>
+    <tr>
+      <td><%= tour.name %></td>
+      <td><%= tour.days %></td>
+      <td><%= tour.start_date %></td>
+      <td>£<%= tour.price %></td>
+    </tr>
+  <% end %>
+</table>
