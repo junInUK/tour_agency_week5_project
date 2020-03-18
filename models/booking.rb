@@ -18,6 +18,11 @@ class Booking
     return bookings
   end
 
+  def self.delete_all()
+    sql = "DELETE FROM bookings"
+    SqlRunner.run(sql)
+  end
+
   def self.destroy(id)
     sql = "DELETE FROM bookings where id = $1"
     value = [id]

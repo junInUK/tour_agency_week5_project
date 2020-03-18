@@ -9,5 +9,11 @@
   <input type="number" name="price" id="price">
   <label for="pic-url">Picture url:</label>
   <input type="text" name="pic_url" id="pic-url">
+  <label for="vehicle">Pick a bus:</label>
+  <select class="" name="vehicle_id" id="vehicle">
+    <% @vehicles.each do |vehicle| %>
+      <option value="<%= vehicle.id %>"><%= vehicle.reg_number %></option>
+    <% end %>
+  </select>  
   <input type="submit" value="add tour">
 </form>

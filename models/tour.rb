@@ -1,9 +1,10 @@
+require_relative('vehicle.rb')
 require_relative('../db/sql_runner.rb')
 
 class Tour
 
   attr_reader :id
-  attr_accessor :name, :start_date, :days, :price, :pic_url
+  attr_accessor :name, :start_date, :days, :price, :pic_url, :vehicle_id
 
   def initialize(tour)
     @id         = tour['id'].to_i if tour['id']
@@ -12,16 +13,25 @@ class Tour
     @days       = tour['days'].to_i
     @price      = tour['price'].to_i
     @pic_url    = tour['pic_url']
+    @vehicle_id = tour['vehicle_id'].to_i
   end
 
   def save()
     # binding.pry
-    sql = "INSERT INTO tours(name,start_date,days,price,pic_url)
-          VALUES($1,$2,$3,$4,$5) RETURNING id"
-    values = [@name,@start_date,@days,@price,@pic_url]
-    tour = SqlRunner.run(sql,values).first
-    @id = tour['id'].to_i
+    sql = "INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id"
+    values = [@name,@start_date,@days,@price,@pic_url,@vehicle_id]
+    tour_hash = SqlRunner.run(sql,values).first
+    @id = tour_hash['id'].to_i
     return @id
+  end
+
+  def get_vehicle_by_id()
+    sql = "SELECT * FROM vehicles where id = $1"
+    value = [@vehicle_id]
+    vehicle_hash = SqlRunner.run(sql,value).first
+    vehicle = Vehicle.new(vehicle_hash)
+    return vehicle
   end
 
   def self.all()
@@ -51,9 +61,9 @@ class Tour
   end
 
   def update()
-    sql = "UPDATE tours set (name,start_date,days,price,pic_url)
-    = ($1,$2,$3,$4,$5) WHERE id = $6"
-    values = [@name,@start_date,@days,@price,@pic_url,@id]
+    sql = "UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7"
+    values = [@name,@start_date,@days,@price,@pic_url,@vehicle,@id]
     SqlRunner.run(sql,values)
 
   end
