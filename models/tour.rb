@@ -29,12 +29,10 @@ class Tour
   end
 
   def get_vehicle_by_id()
-    logger = Logger.new("my_log1.txt")
     sql = "SELECT * FROM vehicles where id = $1"
     value = [@vehicle_id]
     logger.debug("vehicle_id:#{@vehicle_id}")
     result = SqlRunner.run(sql,value)
-    logger.info(result)
     if(nil == result)
       vehicle = Vehicle.new({
           "reg_number" => Vehicle::NoVehicle_REG_NUMBER,
