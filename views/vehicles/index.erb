@@ -1,10 +1,14 @@
-<% @vehicles.each do |vehicle| %>
-  <div class="box-container">
-    <ul>
-      <li><%= vehicle.reg_number %></li>
-      <li><%= vehicle.brand %></li>
-      <li><%= vehicle.seats %></li>
-      
-    </ul>
-  </div>
-<% end %>
+<table>
+  <tr>
+    <th>Registrtion Number</th>
+    <th>Brand</th>
+    <th>seats</th>
+  </tr>
+  <% @vehicles.each do |vehicle| %>
+    <tr>
+      <td><%= vehicle.reg_number %></td>
+      <td><%= vehicle.brand %></td>
+      <td><%= vehicle.seats %></td>
+    </tr>
+  <% end %>
+</table>

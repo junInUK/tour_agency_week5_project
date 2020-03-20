@@ -1,13 +1,21 @@
 <a href="/tourists/new">Add tourist</a>
-<% @tourists.each do |tourist| %>
-  <div class="box-container">
-    <ul>
-      <li><%= tourist.name %></li>
-      <li><%= tourist.email %></li>
-      <li><%= tourist.phone_number %></li>
-      <li><%= tourist.address %></li>
-      <li><%= tourist.funds %></li>  
-      <li><a href="/tours_of_tourist/<%= tourist.id %>">check tours</a></li>
-    </ul>
-  </div>
-<% end %>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>email</th>
+    <th>phone number</th>
+    <th>address</th>
+    <th>funds</th>
+    <th></th>
+  </tr>
+  <% @tourists.each do |tourist| %>
+    <tr>
+      <td><%= tourist.name %></td>
+      <td><%= tourist.email %></td>
+      <td><%= tourist.phone_number %></td>
+      <td><%= tourist.address %></td>
+      <td><%= tourist.funds %></td>
+      <td><a href="/tours_of_tourist/<%= tourist.id %>">check tours</a></td>
+    </tr>
+  <% end %>
+</table>
