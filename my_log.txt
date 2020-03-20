@@ -1,0 +1,431 @@
+# Logfile created on 2020-03-20 15:33:52 +0000 by logger.rb/66358
+I, [2020-03-20T15:33:52.203769 #11701]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T15:33:52.267027 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.271997 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.276601 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.281166 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.285725 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.290307 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.294737 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.299121 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.303638 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.308009 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.312386 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.316919 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:33:52.321419 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:52.970722 #11701]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T15:35:53.052154 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.058127 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.062999 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.067663 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.072607 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.077921 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.082541 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.087021 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.092256 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.097691 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.102253 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.106886 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:35:53.111812 #11701]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.886072 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T15:38:20.947230 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.952799 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.957909 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.962613 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.967165 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.971755 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.976352 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.980879 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.985614 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.990220 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.994810 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:20.999381 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:38:21.006088 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:40:45.353414 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T15:40:45.418249 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:44:56.385863 #14827]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:45:01.424789 #14827]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T15:45:57.638677 #14947]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:47:46.747914 #15070]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:53:09.845946 #15119]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T15:55:28.933601 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T15:55:28.993697 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T16:08:24.369592 #14211]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T16:09:08.464542 #14211]  INFO -- : SELECT * FROM bookings
+I, [2020-03-20T16:09:09.461000 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T16:09:09.469943 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T16:09:49.966713 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T16:09:56.623696 #14211]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T16:09:57.343751 #14211]  INFO -- : SELECT * FROM bookings
+I, [2020-03-20T16:09:58.866342 #14211]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T16:10:22.458581 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T16:10:36.396506 #14211]  INFO -- : SELECT tourists.* FROM tourists
+          inner join bookings on tourists.id = bookings.tourist_id
+          where bookings.tour_id = $1
+I, [2020-03-20T16:10:38.096540 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T16:10:39.394113 #14211]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T16:10:39.403390 #14211]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T16:12:47.764692 #14211]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T16:12:47.822988 #14211]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:24:34.569141 #17571]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:25:27.720287 #17571]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:26:50.781194 #17571]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:27:01.625458 #17571]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:27:48.996404 #17571]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:27:50.032510 #17571]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T21:28:27.582741 #17571]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T21:28:29.173398 #17571]  INFO -- : SELECT tours.* FROM tours inner join bookings
+    on tours.id = bookings.tour_id
+    where bookings.tourist_id = $1
+I, [2020-03-20T21:28:33.319435 #17571]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:31:05.367250 #17571]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:33:05.735138 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:33:05.790284 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:33:09.402413 #17811]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T21:33:55.027305 #17811]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T21:33:57.928727 #17811]  INFO -- : SELECT tours.* FROM tours inner join bookings
+    on tours.id = bookings.tour_id
+    where bookings.tourist_id = $1
+I, [2020-03-20T21:33:59.194722 #17811]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T21:34:00.268628 #17811]  INFO -- : SELECT * FROM bookings
+I, [2020-03-20T21:34:02.190692 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:34:02.197617 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:34:06.604850 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:34:06.611410 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:34:11.241417 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:34:13.838023 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:34:13.845491 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:34:17.283887 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:34:17.290368 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:34:20.392320 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:34:20.398943 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:34:22.618933 #17811]  INFO -- : SELECT tourists.* FROM tourists
+          inner join bookings on tourists.id = bookings.tourist_id
+          where bookings.tour_id = $1
+I, [2020-03-20T21:34:23.835938 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:34:23.842924 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:34:27.320480 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:34:27.326644 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:34:34.742200 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:39:06.859520 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:39:06.927785 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:39:09.459381 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:39:09.465919 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:39:12.288031 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:44:00.539276 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:44:00.598271 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:44:05.693794 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:44:05.699787 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:44:09.042511 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:44:14.003703 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:44:14.010370 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:44:16.903024 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:44:16.909425 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:44:19.132296 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:44:19.139223 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:44:19.893815 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:44:19.901126 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:45:39.680493 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:45:39.741167 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:45:54.852501 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:47:37.585972 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:47:37.636155 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:48:20.791215 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:48:43.631267 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:48:43.683079 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:50:57.093037 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:50:57.143415 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:50:59.731081 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:50:59.738429 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:01.604873 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:51:01.610832 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:51:13.709518 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:51:16.895147 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:16.902131 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:19.786719 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:19.793610 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:20.322530 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:20.329555 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:20.579442 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:20.586190 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:20.836641 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:20.843708 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:21.043271 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:21.049845 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:21.252784 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:21.259418 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:21.444558 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:21.451118 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:21.652413 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:21.659069 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:21.958335 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:21.965290 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:22.294609 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:22.301197 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:51:22.501563 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:51:22.508300 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:52:09.425790 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:52:09.473211 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:52:12.244840 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:52:12.250535 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:52:39.137818 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:53:10.401434 #17811]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:53:10.453879 #17811]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:54:40.549155 #17811]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:54:40.608899 #17811]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:55:11.258508 #17811]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:56:03.950445 #18189]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:56:04.003109 #18189]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:56:06.499358 #18189]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:56:06.505227 #18189]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:58:03.398301 #18189]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:58:03.456449 #18189]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:58:05.580022 #18189]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:58:05.588638 #18189]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T21:59:33.779623 #18189]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:59:37.220152 #18189]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T21:59:57.755871 #18189]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T21:59:57.813802 #18189]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T21:59:59.741963 #18189]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T21:59:59.748400 #18189]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:00:44.143110 #18189]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:00:44.200433 #18189]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:00:47.465194 #18189]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:00:47.470815 #18189]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:02:21.448696 #18413]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:02:21.500841 #18413]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:03:06.006492 #18413]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:03:06.062744 #18413]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:03:09.930930 #18413]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:03:09.936962 #18413]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:05:06.421457 #18413]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:05:06.476379 #18413]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:05:08.255872 #18413]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:05:08.266492 #18413]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:05:09.308089 #18413]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:05:09.314215 #18413]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:05:11.360522 #18413]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T22:05:15.293105 #18413]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:05:15.304313 #18413]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:05:17.254775 #18413]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:05:17.261441 #18413]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:05:20.299824 #18413]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T22:05:22.485737 #18413]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:05:22.499090 #18413]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:05:45.901255 #18535]  INFO -- : DELETE FROM bookings
+I, [2020-03-20T22:05:45.947419 #18535]  INFO -- : DELETE FROM tours
+I, [2020-03-20T22:05:45.952657 #18535]  INFO -- : DELETE FROM tourists
+I, [2020-03-20T22:05:45.957500 #18535]  INFO -- : DELETE FROM vehicles
+I, [2020-03-20T22:05:45.961899 #18535]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:05:45.972315 #18535]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:05:45.984135 #18535]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:05:45.997237 #18535]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:05:46.004154 #18535]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:05:46.009502 #18535]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:05:46.020971 #18535]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:05:46.035092 #18535]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:05:46.041105 #18535]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:05:46.047000 #18535]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:05:46.052319 #18535]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:05:46.057234 #18535]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:05:46.067404 #18535]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:05:46.078719 #18535]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:05:46.084368 #18535]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:05:46.089066 #18535]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:05:46.095943 #18535]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:05:46.108723 #18535]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:05:46.122113 #18535]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:05:46.130074 #18535]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:06:08.158573 #18609]  INFO -- : DELETE FROM bookings
+I, [2020-03-20T22:06:08.215148 #18609]  INFO -- : DELETE FROM tours
+I, [2020-03-20T22:06:08.220337 #18609]  INFO -- : DELETE FROM tourists
+I, [2020-03-20T22:06:08.225705 #18609]  INFO -- : DELETE FROM vehicles
+I, [2020-03-20T22:06:08.230274 #18609]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:06:08.236567 #18609]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:06:08.247109 #18609]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:06:08.260309 #18609]  INFO -- : INSERT INTO vehicles (reg_number,brand,seats)
+        VALUES ($1,$2,$3) RETURNING id
+I, [2020-03-20T22:06:08.266724 #18609]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:06:08.272072 #18609]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:06:08.283596 #18609]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:06:08.295761 #18609]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:06:08.301881 #18609]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:06:08.307193 #18609]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:06:08.312457 #18609]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:06:08.317110 #18609]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:06:08.327699 #18609]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:06:08.338844 #18609]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:06:08.344241 #18609]  INFO -- : INSERT INTO tourists(name,email,phone_number,address,funds)
+        VALUES($1,$2,$3,$4,$5) RETURNING id
+I, [2020-03-20T22:06:08.349174 #18609]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:06:08.356130 #18609]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:06:08.368902 #18609]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:06:08.383557 #18609]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:06:08.391137 #18609]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:06:32.478861 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:06:32.533268 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:32.538859 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:32.543377 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:32.547849 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:32.552949 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:32.557508 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:38.272834 #18647]  INFO -- : SELECT tourists.* FROM tourists
+          inner join bookings on tourists.id = bookings.tourist_id
+          where bookings.tour_id = $1
+I, [2020-03-20T22:06:40.644086 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:06:40.650632 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:40.656524 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:40.667074 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:40.673002 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:40.678012 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:40.682689 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:42.263196 #18647]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:06:42.269102 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:06:47.084338 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:06:47.091204 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:47.097218 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:47.102476 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:47.107690 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:47.112656 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:06:47.117424 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:29.818194 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:07:29.879255 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:29.884294 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:29.889030 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:29.893895 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:29.898338 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:29.902781 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:35.353171 #18647]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:07:37.790310 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:07:37.797864 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:37.803347 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:37.808609 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:37.814213 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:37.819693 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:37.824580 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:07:42.107988 #18647]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:07:42.113889 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:08:15.950416 #18647]  INFO -- : UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
+    = ($1,$2,$3,$4,$5,$6) WHERE id = $7
+I, [2020-03-20T22:08:22.479945 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:08:22.486675 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:22.492206 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:22.497892 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:22.503500 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:22.508781 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:22.514204 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:31.519549 #18647]  INFO -- : SELECT tourists.* FROM tourists
+          inner join bookings on tourists.id = bookings.tourist_id
+          where bookings.tour_id = $1
+I, [2020-03-20T22:08:32.713290 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:08:32.720219 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:32.725766 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:32.731137 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:32.736363 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:32.741790 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:32.747255 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:41.192869 #18647]  INFO -- : DELETE FROM tours WHERE id = $1
+I, [2020-03-20T22:08:41.209100 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:08:41.215699 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:41.222069 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:41.227536 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:41.232638 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:41.237942 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:08:45.364912 #18647]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:09:03.706381 #18647]  INFO -- : INSERT INTO tours(name,start_date,days,price,pic_url,vehicle_id)
+          VALUES($1,$2,$3,$4,$5,$6) RETURNING id
+I, [2020-03-20T22:09:05.963965 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:09:05.972070 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:09:05.977815 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:09:05.983212 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:09:05.988874 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:09:05.994146 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:09:05.999403 #18647]  INFO -- : SELECT * FROM vehicles where id = $1
+I, [2020-03-20T22:09:10.394498 #18647]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T22:09:12.119391 #18647]  INFO -- : SELECT tours.* FROM tours inner join bookings
+    on tours.id = bookings.tour_id
+    where bookings.tourist_id = $1
+I, [2020-03-20T22:09:13.462414 #18647]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T22:09:17.603784 #18647]  INFO -- : SELECT * FROM bookings
+I, [2020-03-20T22:09:17.609417 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:17.614200 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:17.619357 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:17.624114 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:17.628503 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:17.633430 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:17.637928 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:17.642242 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:17.646460 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:17.651516 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:22.314194 #18647]  INFO -- : SELECT * FROM vehicles
+I, [2020-03-20T22:09:27.489963 #18647]  INFO -- : SELECT * FROM bookings
+I, [2020-03-20T22:09:27.496645 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:27.502059 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:27.508091 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:27.513471 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:27.518466 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:27.523880 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:27.528690 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:27.533125 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:27.537753 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:27.542712 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:28.803065 #18647]  INFO -- : SELECT * FROM tourists
+I, [2020-03-20T22:09:28.809309 #18647]  INFO -- : SELECT * FROM tours
+I, [2020-03-20T22:09:43.384560 #18647]  INFO -- : SELECT Booking($1,$2,$3);
+I, [2020-03-20T22:09:43.399618 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:43.405167 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:51.523942 #18647]  INFO -- : SELECT * FROM bookings
+I, [2020-03-20T22:09:51.530651 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:51.536417 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:51.542587 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:51.547876 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:51.552901 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:51.557606 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:51.562858 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:51.567491 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:51.572214 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:51.576920 #18647]  INFO -- : SELECT * FROM tours where id = $1
+I, [2020-03-20T22:09:51.581536 #18647]  INFO -- : SELECT * FROM tourists where id = $1
+I, [2020-03-20T22:09:51.585824 #18647]  INFO -- : SELECT * FROM tours where id = $1

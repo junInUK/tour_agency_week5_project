@@ -6,9 +6,8 @@
       <li>Start from <%= tour.start_date %></li>
       <li><%= tour.days %> days tour</li>
       <li>From £<%= tour.price %></li>
-      <li>Vehicle Reg Number: <%= tour.get_vehicle_by_id().reg_number %></li>
-      <li>Vehicle Brand: <%= tour.get_vehicle_by_id().brand %></li>
-      <li>Total seats: <%= tour.get_vehicle_by_id().seats %></li>
+      <li>Vehicle Reg Number: <%= Vehicle.get_by_id(tour.vehicle_id).reg_number %></li>
+      
       <li>
         <form action="/tours/<%= tour.id %>/delete" method="POST">
           <input class="btn btn--danger" type="submit" value="delete" />

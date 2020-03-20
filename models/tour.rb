@@ -1,6 +1,8 @@
 require_relative('vehicle.rb')
 require_relative('../db/sql_runner.rb')
 
+require('logger')
+
 class Tour
 
   attr_reader :id
@@ -27,10 +29,21 @@ class Tour
   end
 
   def get_vehicle_by_id()
+    logger = Logger.new("my_log1.txt")
     sql = "SELECT * FROM vehicles where id = $1"
     value = [@vehicle_id]
-    vehicle_hash = SqlRunner.run(sql,value).first
-    vehicle = Vehicle.new(vehicle_hash)
+    logger.debug("vehicle_id:#{@vehicle_id}")
+    result = SqlRunner.run(sql,value)
+    logger.info(result)
+    if(nil == result)
+      vehicle = Vehicle.new({
+          "reg_number" => Vehicle::NoVehicle_REG_NUMBER,
+          "brand"      => Vehicle::NoVehicle_BRAND,
+          "seats"      => Vehicle::NoVehicle_SEATS
+        })
+    else
+      vehicle = Vehicle.new(result.first)
+    end
     return vehicle
   end
 
@@ -61,9 +74,10 @@ class Tour
   end
 
   def update()
+    # binding.pry
     sql = "UPDATE tours set (name,start_date,days,price,pic_url,vehicle_id)
     = ($1,$2,$3,$4,$5,$6) WHERE id = $7"
-    values = [@name,@start_date,@days,@price,@pic_url,@vehicle,@id]
+    values = [@name,@start_date,@days,@price,@pic_url,@vehicle_id,@id]
     SqlRunner.run(sql,values)
 
   end

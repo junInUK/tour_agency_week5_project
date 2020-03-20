@@ -1,6 +1,11 @@
 require_relative("../db/sql_runner")
+require('pry-byebug')
 
 class Vehicle
+
+  NoVehicle_REG_NUMBER = "no registrtion number"
+  NoVehicle_BRAND      = "no brand"
+  NoVehicle_SEATS      = 0
 
   attr_reader :id
   attr_accessor :reg_number, :brand, :seats
@@ -34,10 +39,19 @@ class Vehicle
   end
 
   def self.get_by_id(id)
+    # binding.pry
     sql = "SELECT * FROM vehicles where id = $1"
     value = [id]
     vehicle_hash = SqlRunner.run(sql,value).first
-    vehicle = Vehicle.new(vehicle_hash)
+    if nil == vehicle_hash
+      vehicle = Vehicle.new({
+        "reg_number" => NoVehicle_REG_NUMBER,
+        "brand"      => NoVehicle_BRAND,
+        "seats"      => NoVehicle_SEATS
+      })
+    else
+      vehicle = Vehicle.new(vehicle_hash)
+    end
     return vehicle
   end
 

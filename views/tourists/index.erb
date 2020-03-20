@@ -6,13 +6,7 @@
       <li><%= tourist.email %></li>
       <li><%= tourist.phone_number %></li>
       <li><%= tourist.address %></li>
-      <li><%= tourist.funds %></li>
-      <li>
-        <form action="/tourists/<%= tourist.id %>/delete" method="POST">
-          <input class="btn btn--danger" type="submit" value="delete" />
-        </form>
-      </li>
-      <li><a href="/tourists/<%= tourist.id %>/edit">edit</a></li>
+      <li><%= tourist.funds %></li>  
       <li><a href="/tours_of_tourist/<%= tourist.id %>">check tours</a></li>
     </ul>
   </div>

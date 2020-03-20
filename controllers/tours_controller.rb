@@ -2,7 +2,6 @@ require_relative('../models/tour')
 require_relative('../models/vehicle')
 
 get '/tours' do
-  # binding.pry 
   @tours = Tour.all()
   erb(:"tours/index")
 end
@@ -24,7 +23,6 @@ post '/tours/:id/delete' do
 end
 
 get '/tours/:id/edit' do
-  # binding.pry
   @vehicles = Vehicle.all()
   @tour = Tour.find(params[:id])
   erb(:"tours/edit")
