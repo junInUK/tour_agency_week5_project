@@ -2,7 +2,7 @@ require_relative('../models/tour')
 require_relative('../models/vehicle')
 
 get '/tours' do
-
+  # binding.pry 
   @tours = Tour.all()
   erb(:"tours/index")
 end
